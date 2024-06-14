@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Merch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1 class="logo">Spider-Merch</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pricing">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div class="container hero-content">
+        <h2>Spiderman Latest Merch</h2>
+        <p>Get your limited edition merchandise now!</p>
+        <button onclick="scrollToSection('pricing')" class="button-shop-now">Shop Now</button>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2>About Spider-Merch</h2>
+        <p>Spider-Man merchandise offers fans the opportunity to bring their favorite web-slinging hero into their everyday lives. From iconic costumes to collectible figures and accessories, Spider-Man merchandise allows fans to showcase their love for the Marvel superhero in style.</p>
+        <p>Whether you're swinging into action with Spider-Man action figures, dressing up as your favorite hero with Spider-Man costumes, or decorating your space with Spider-Man posters and memorabilia, there's something for every fan in the world of Spider-Man merchandise.</p>
+        <p>Our collection features officially licensed Spider-Man products, ensuring high quality and authenticity. Explore our wide range of merchandise and join Spidey on his adventures today!</p>
+    </div>
+</section>
+
+<section id="testimonials" class="testimonials">
+    <div class="container">
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial-list">
+            <div class="testimonial">
+                <p>"Amazing quality and fast shipping!"</p>
+                <span>- Happy Customer</span>
+            </div>
+            <div class="testimonial">
+                <p>"I love the exclusive designs. A must-have for any fan."</p>
+                <span>- Satisfied Fan</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="pricing" class="pricing">
+    <div class="container">
+        <h2>Pricing & Purchase Options</h2>
+        <div class="pricing-table">
+            <div class="pricing-option">
+                <h3>Standard Edition</h3>
+                <img src="assets/s3.jpeg" alt="Standard Edition">
+                <p>$29.99</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="pricing-option">
+                <h3>Deluxe Edition</h3>
+                <img src="assets/s2.jpeg" alt="Deluxe Edition">
+                <p>$49.99</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Spider-merch. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="index.js"></script>  
+</body>
+</html>
